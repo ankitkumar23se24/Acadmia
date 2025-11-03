@@ -8,17 +8,17 @@ export default function Home() {
     {
       name: "Rajan",
       image: "/avatar.jpg",
-      testimonial: "RK Technical Institute provided me with the skills and confidence to launch my tech career. The hands-on experience was invaluable!"
+      testimonial: "Acadmia provided me with the skills and confidence to launch my tech career. The hands-on experience was invaluable!"
     },
     {
-      name: "Prince",
+      name: "Aman",
       image: "/avatar.jpg",
-      testimonial: "The industry connections I made through RK Technical were instrumental in landing my dream job. Highly recommended!"
+      testimonial: "The industry connections I made through Acadmia were instrumental in landing my dream job. Highly recommended!"
     },
     {
-      name: "Shubham",
+      name: "Ankit",
       image: "/avatar.jpg",
-      testimonial: "The instructors at RK Technical are top-notch. They really care about student success and go the extra mile to help."
+      testimonial: "The instructors at Acadmia are top-notch. They really care about student success and go the extra mile to help."
     }
   ]
 
@@ -46,39 +46,10 @@ export default function Home() {
           </div>
         </section>
 
-        {/* YouTube Achievements Section */}
-        <section className="py-20 bg-gray-100">
-          <div className="container mx-auto px-6 max-w-7xl">
-            <h2 className="text-4xl font-bold text-center mb-12">Our YouTube Achievements</h2>
-            <div className='flex justify-center mb-8'>
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/9dKFhh5fM-Q?si=ZSexp8fwIL56MGnE?autoplay=1" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen className='rounded-xl'></iframe>
-            </div>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-              <div className="bg-white rounded-lg p-6 text-center shadow-2xl hover:scale-105 transition-transform">
-                <h3 className="text-4xl font-bold text-blue-600 mb-2">10.3K+</h3>
-                <p className="text-xl text-gray-600">Subscribers</p>
-              </div>
-              <div className="bg-white rounded-lg p-6 text-center shadow-2xl hover:scale-105 transition-transform">
-                <h3 className="text-4xl font-bold text-green-600 mb-2">278+</h3>
-                <p className="text-xl text-gray-600">Tutorial Videos</p>
-              </div>
-              <div className="bg-white rounded-lg p-6 text-center shadow-2xl hover:scale-105 transition-transform">
-                <h3 className="text-4xl font-bold text-purple-600 mb-2">994,275+</h3>
-                <p className="text-xl text-gray-600">Total Views</p>
-              </div>
-            </div>
-            <div className="text-center mt-12">
-              <Link href="https://www.youtube.com/@RKTECHNICALKLB" className="inline-flex items-center gap-3 text-xl px-4 py-2 bg-gray-700 text-white font-medium rounded-md hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900" target="_blank" rel="noopener noreferrer">
-                Visit Our YouTube Channel
-              </Link>
-            </div>
-          </div>
-        </section>
-
         {/* Features Section */}
         <section className="py-20 bg-white">
           <div className="container mx-auto px-6">
-            <h2 className="text-4xl font-bold text-center mb-12">Why Choose RK Technical Institute?</h2>
+            <h2 className="text-4xl font-bold text-center mb-12">Why Choose Acadmia?</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
               <div className="text-center">
                 <div className="bg-blue-100 rounded-full p-6 inline-block mb-4 hover:scale-125 transition-transform">
@@ -177,42 +148,7 @@ export default function Home() {
                   </p>
                 </div>
               ))}
-              {/* <div className="bg-white rounded-lg shadow-md p-8 max-w-80">
-                <div className="flex items-center mb-5">
-                  <Image
-                    src="/avatar.jpg"
-                    width={50}
-                    height={50}
-                    alt="Sarah Johnson"
-                    className="rounded-full mr-4"
-                  />
-                  <div>
-                    <p className="font-semibold">Rajan</p>
-                  </div>
-                </div>
-                <p className="mb-4 text-gray-600 italic">
-                  &#34;RK Technical Institute provided me with the skills and confidence to launch my tech career. The hands-on
-                  experience was invaluable!&#34;
-                </p>
-              </div>
-              <div className="bg-white rounded-lg shadow-md p-8 max-w-80">
-                <div className="flex items-center mb-5">
-                  <Image
-                    src="/avatar.jpg"
-                    width={50}
-                    height={50}
-                    alt="Michael Chen"
-                    className="rounded-full mr-4"
-                  />
-                  <div>
-                    <p className="font-semibold">Prince</p>
-                  </div>
-                </div>
-                <p className="mb-4 text-gray-600 italic">
-                  &#34;The industry connections I made through RK Technical were instrumental in landing my dream job. Highly
-                  recommended!&#34;
-                </p>
-              </div> */}
+              
             </div>
           </div>
         </section>

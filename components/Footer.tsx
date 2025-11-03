@@ -11,14 +11,13 @@ const Footer = () => {
         <>
             <footer className="flex lg:flex-row flex-col py-10 text-center text-white justify-around" style={{backgroundColor: "rgb(32 35 41"}}>
                 <div className="flex flex-col gap-5 my-6 lg:items-start">
-                    <h1 className="text-4xl font-bold">RK Technical Institute</h1>
-                    <p className="text-2xl">हुनर है तो कदर है</p>
+                    <h1 className="text-4xl font-bold">Acadmia</h1>
                     <div className='flex gap-3 my-6 justify-center'>
-                        <Link href={"https://www.facebook.com/RK-Technical-104709658272861"} target='_blank'><RiFacebookCircleFill className="text-5xl" /></Link>
-                        <Link href={"https://www.instagram.com/rk_technical123?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="} target='_blank'><AiFillInstagram className="text-5xl" /></Link>
+                        <Link href={"#"} target='_blank'><RiFacebookCircleFill className="text-5xl" /></Link>
+                        <Link href={"#"} target='_blank'><AiFillInstagram className="text-5xl" /></Link>
                         <Link href="#"><AiFillLinkedin className="text-5xl" /></Link>
                     </div>
-                    <p className="font-semibold text-lg text-[#ABAFB5]"><span className="text-indigo-300">RK Technical</span> &copy;2024. All Rights Reserved.</p>
+                    <p className="font-semibold text-lg text-[#ABAFB5]"><span className="text-indigo-300">Acadmia</span> &copy;2024. All Rights Reserved.</p>
                 </div>
 
                 <div className="flex flex-col gap-3 text-lg lg:items-start text-[#ABAFB5]">
@@ -31,9 +30,9 @@ const Footer = () => {
 
                 <div className="flex flex-col gap-3 text-lg lg:items-start text-[#ABAFB5]">
                     <h2 className="text-2xl font-bold my-6 text-[#ECEDEE]">Reach Out us</h2>
-                    <p>Email: <Link href={'mailto:rktechnical.azm@gmail.com'}> rktechnical.azm@gmail.com </Link> </p>
-                    <p>Contact No: <Link href="tel:+919918631729"> 9918631729 </Link></p>
-                    <p>Contact No: <Link href="tel:+917238079091"> 7238079091 </Link></p>
+                    <p>Email: <Link href={'mailto:rktechnical.azm@gmail.com'}> acadmia@gmail.com </Link> </p>
+                    <p>Contact No: <Link href="tel:+919918631729"> 9990806405 </Link></p>
+                    <p>Contact No: <Link href="tel:+919918631729"> 9990806405 </Link></p>
                 </div>
             </footer>
         </>

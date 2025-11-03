@@ -20,7 +20,6 @@ const Header = () => {
         { label: "Home", href: '/' },
         { label: "Courses", href: '/courses' },
         { label: "Verification", href: '/verification' },
-        { label: "Branches", href: '/branches' },
         { label: "Contact", href: '/contact' }
     ]
 
@@ -35,7 +34,7 @@ const Header = () => {
                     <div className='flex items-center gap-12'>
                         <Link href="/">
                             <Image
-                                src="/Logo.png"
+                                src="/logo.png"
                                 width={56}
                                 height={56}
                                 alt="logo"
@@ -95,17 +94,6 @@ const Header = () => {
                     </div>
                 </div>
             )}
-
-            {/* <div>
-                <Link href="https://www.youtube.com/@RKTECHNICALKLB" target='_blank'>
-                    <Image
-                        src="/headerimg.png"
-                        width={1600}
-                        height={240}
-                        alt="logo"
-                    />
-                </Link>
-            </div> */}
         </>
     )
 }

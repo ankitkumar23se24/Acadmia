@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "RK Technical Institute",
-  description: "AC Training Institute in Saraimeer, Azamgarh, Uttar Pradesh",
+  title: "Acadmia",
+  description: "Training Institute Delhi",
 };
 
 export default function RootLayout({

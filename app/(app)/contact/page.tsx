@@ -16,8 +16,8 @@ const Contact = () => {
                         </div>
                         <h2 className="text-lg font-semibold text-gray-800 mb-1">Phone Support</h2>
                         <p className="text-sm text-gray-600 mb-2">Mon-Sat, 9am to 6pm</p>
-                        <a href="tel:+919918631729" className="text-blue-600 font-medium">
-                            +91 9918631729
+                        <a href="tel:+919990806405" className="text-blue-600 font-medium">
+                            +91 9990806405
                         </a>
                     </div>
 
@@ -28,8 +28,8 @@ const Contact = () => {
                         </div>
                         <h2 className="text-lg font-semibold text-gray-800 mb-1">Email Support</h2>
                         <p className="text-sm text-gray-600 mb-2">24/7 email support</p>
-                        <a href="mailto:rktechnical.azm@gmail.com" className="text-black font-medium">
-                            rktechnical.azm@gmail.com
+                        <a href="mailto:acadmia@gmail.com" className="text-black font-medium">
+                            acadmia@gmail.com
                         </a>
                     </div>
                 </div>
@@ -44,6 +44,6 @@ const Contact = () => {
 export default Contact
 
 export const metadata = {
-    title: "RK Technical | Contact us",
-    description: "Raunak Technical Institute",
+    title: "Acadmia | Contact us",
+    description: "Acadmia",
 };

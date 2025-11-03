@@ -11,6 +11,6 @@ const Verification = () => {
 export default Verification
 
 export const metadata = {
-  title: "RK Technical | Verification",
-  description: "Raunak Technical Institute",
+    title: "Acadmia | Verification",
+    description: "Acadmia",
 };

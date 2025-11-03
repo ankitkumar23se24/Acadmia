@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-const DB_NAME = "RK"
+const DB_NAME = "Acadmia"
 
 const connectDB = async (): Promise<void> => {
 

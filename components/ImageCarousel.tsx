@@ -7,7 +7,6 @@ const carouselImages = [
     "/img1.jpg",
     "/img2.jpg",
     "/img3.jpg",
-    "/img4.jpg"
 ]
 
 const ImageCarousel = () => {
@@ -36,8 +35,7 @@ const ImageCarousel = () => {
                 ))}
                 <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
                     <div className="text-center text-white">
-                        <h1 className="text-5xl font-bold mb-4">Welcome to RK Technical Institute</h1>
-                        <p className="text-4xl mb-8">सफलता की 100% गारंटी</p>
+                        <h1 className="text-5xl font-bold mb-4">Welcome to Acadmia</h1>
                         <CallButton />
                     </div>
                 </div>

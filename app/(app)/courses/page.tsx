@@ -12,6 +12,6 @@ const Courses = () => {
 export default Courses
 
 export const metadata = {
-  title: "RK Technical | Courses",
-  description: "Raunak Technical Institute",
+    title: "Acadmia | Courses",
+    description: "Acadmia",
 };
